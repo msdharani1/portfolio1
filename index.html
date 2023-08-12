@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Dharani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b441c5fb25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-----------header------------->
+    <div id="header">
+        <nav>
+            <img src="img/Logo.png" alt="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#mywork">My Tracks</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" id="menu1"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu2" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Independent Music Artist</h1>
+            <p>Hi, I'm <span>MS Dharani<br></span>From India</p>
+        </div>
+    </div>
+
+    <!-----------about------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/about0000.jpg" alt="UserImage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"MSD" is a self-taught Keyboardist and independent artist. At a young age, he began his musical career on YouTube under the name "MS Dharani." His mashups were all unique, grooving, and captivating. His next goal is to release original songs on his own. So stay tune for that.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Production</span><br>Music Composing</li>
+                            <li><span>Mixing</span><br>Professional Mixing</li>
+                            <li><span>Mastering</span><br>Professional Mastering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Short Flim Background Scoring</li>
+                            <li><span>2023</span><br>Old is Gold Album</li>
+                            <li><span>2022</span><br>Colab with Singers</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>SSLC - <a href="https://www.justdial.com/Srivilliputtur/Thiagaraja-Higher-Secondary-School-Srivilliputtur-Ho/9999P4563-4563-110120110510-X1L2_BZDET" target="_blank" style="text-decoration: none; color:white">THSS</a></li>
+                            <li><span>2021</span><br>HSC - <a href="https://www.justdial.com/Srivilliputtur/Thiagaraja-Higher-Secondary-School-Srivilliputtur-Ho/9999P4563-4563-110120110510-X1L2_BZDET" target="_blank" style="text-decoration: none; color:white">THSS</a></li>
+                            <li><span>2024</span><br>BCA - <a href="https://kaliswaricollege.edu.in/" target="_blank" style="text-decoration: none; color:white">SKC</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div> 
+
+<!----------Services------------->
+
+    <div id="services">
+        <h1>My Work</h1>
+        <div class="box col1" id="box">
+            <i class="fa-solid fa-music"></i>
+            <h2 class="title">Music Composing</h2>
+            <p class="s-p">An original piece or work of music, either vocal or instrumental, the structure of a musical piece or to the process of creating or writing a new piece of music.</p>
+            <h3>Learn more</h3>
+        </div>
+        <div class="box col2" id="box">
+            <i class="fa-solid fa-headphones"></i>
+            <h2 class="title">Mixing</h2>
+            <p class="s-p">Audio mixing is the process of optimizing and combining multitrack recordings into a final mono, stereo or surround sound product.</p>
+            <h3>Learn more</h3>
+        </div>
+        <div class="box col3" id="box">
+            <i class="fa-solid fa-wave-square"></i>
+            <h2 class="title">Mastering</h2>
+            <p class="s-p">Mastering, a form of audio post production, is the process of preparing and transferring recorded audio from a source containing the final mix to a data storage device, the source from which all copies will be produced.</p>
+            <h3>Learn more</h3>
+        </div>
+    </div>
+
+<!--=-------------My Work---------------->
+
+    <div id="mywork">
+        <h1>My Tracks</h1>
+        <div class="work col1" id="work">
+            <img src="img/work-1.png" alt="project1">
+        </div>
+        <div class="work col2" id="work">
+            <img src="img/work-2.png" alt="project2">
+        </div>
+        <div class="work col3" id="work">
+            <img src="img/work-3.png" alt="project3">
+        </div>
+        <button class="btn"><a href="https://open.spotify.com/artist/7EC9dluKccRXScG6eNCyV4?si=ppNycjiiRRaLg4XMYkskIA" style="text-decoration: none; color:#fff">See more</a></button>
+    </div>
+
+
+<!--=-------------Contact---------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-col-1">
+                <h1>Contact Me</h1>
+                <i class="fa-solid fa-envelope"></i>
+                <p>msdharaniofficial@gmail.com</p>
+                <i class="fa-solid fa-phone" id="ph"></i>
+                <p class="num">+91 9360646732</p>
+                <a href="https://www.facebook.com/msdharani007/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/MSDharani007" target="_blank"><i class="fa-brands fa-square-twitter" ></i></a>
+                <a href="https://www.instagram.com/msdharani1/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram" ></i></a>
+                <a href="https://www.linkedin.com/in/ms-dharani-054010229/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a><br><br>
+                <button class="contact_btn"><a href="https://www.youtube.com/@MSDharaniOfficial">Subscribe</a></button>
+            </div>
+            <div class="contact-col-2">
+                <form action="">
+                    <input type="text" placeholder="Your Name" class="text-box"><br>
+                    <input type="email" placeholder="Your Email ID" class="text-box"><br>
+                    <textarea rows="10" cols="26" placeholder="Your Message" class="message-box"></textarea><br>
+                    <input type="submit" value="Submit" class="contact_btn" id="c-btn">
+                </form>
+            </div>
+        </div> 
+    </div>
+</div> 
+
+
+<div class="footer">
+    <p>Copyright &copy; MS Dharani. Made with <i class="fa-solid fa-heart"></i> by MSD </p>
+</div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        var menu = document.getElementById("menu2");
+
+        function closemenu(){
+            sidemenu.style.left = "1000px";
+            menu.style.display = "block";
+        }
+        function openmenu(){
+            sidemenu.style.left = "30px";
+            menu.style.display = "none";
+        }
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");  
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
